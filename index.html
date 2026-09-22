@@ -1,49 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#061a3a">
-<title>Gul Khan Restaurant | Oud Metha</title>
-<link rel="stylesheet" href="style.css?v=3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a38">
+
+  <title>Gul Khan Restaurant | Oud Metha</title>
+
+  <link rel="stylesheet" href="style.css?v=10">
 </head>
+
 <body>
-<main class="page">
-  <section class="card" aria-label="Gul Khan Restaurant">
-    <div class="truck-art top-left" aria-hidden="true"></div>
-    <div class="truck-art top-right" aria-hidden="true"></div>
-    <div class="truck-art bottom-left" aria-hidden="true"></div>
-    <div class="truck-art bottom-right" aria-hidden="true"></div>
 
-    <div class="location"><span></span><b>OUD METHA · DUBAI</b><span></span></div>
+  <main class="restaurant-page">
 
-    <img class="logo" src="logo-transparent.png" alt="Gul Khan Restaurant logo">
+    <section class="restaurant-card">
 
-    <h1 class="tagline">Desi Flavours, Always a Good Idea</h1>
-    <div class="flourish"><span></span><b>✿</b><span></span></div>
+      <!-- Decorative corners -->
+      <div class="corner corner-tl"></div>
+      <div class="corner corner-tr"></div>
+      <div class="corner corner-bl"></div>
+      <div class="corner corner-br"></div>
 
-    <div class="features">
-      <div class="feature"><div class="feature-icon">🍴</div><strong>AUTHENTIC<br>PAKISTANI CUISINE</strong></div>
-      <div class="feature"><div class="feature-icon">◆</div><strong>FRESH<br>INGREDIENTS</strong></div>
-      <div class="feature"><div class="feature-icon">♨</div><strong>GREAT<br>HOSPITALITY</strong></div>
-    </div>
+      <!-- Location -->
+      <div class="location">
+        <span></span>
+        <p>OUD METHA · DUBAI</p>
+        <span></span>
+      </div>
 
-    <a class="action menu-btn" href="gul-khan-menu.pdf" target="_blank" rel="noopener">
-      <span class="action-icon menu-icon">☰</span>
-      <span class="action-label">VIEW MENU</span>
-      <span class="chevron">›</span>
-    </a>
+      <!-- Logo -->
+      <img
+        src="logo-transparent.png"
+        class="restaurant-logo"
+        alt="Gul Khan Restaurant"
+      >
 
-    <a class="action review-btn" href="https://search.google.com/local/writereview?placeid=ChIJ50tGqHhDXz4Ra_zsnsXWwEw" target="_blank" rel="noopener">
-      <span class="action-icon google-icon">G</span>
-      <span class="action-label">LEAVE A REVIEW</span>
-      <span class="chevron">›</span>
-    </a>
+      <!-- Tagline -->
+      <h1 class="tagline">
+        Desi Flavours, Always a Good Idea
+      </h1>
 
-    <p class="motto">Good Food<br>Brings People Together</p>
-    <div class="flourish bottom-flourish"><span></span><b>✿</b><span></span></div>
-    <p class="footer">GUL KHAN RESTAURANT<br>OUD METHA · DUBAI</p>
-  </section>
-</main>
+      <!-- Divider -->
+      <div class="divider">
+        <span></span>
+        <div>✿</div>
+        <span></span>
+      </div>
+
+      <!-- Features -->
+      <div class="features">
+
+        <div class="feature">
+          <div class="feature-circle">
+            <span class="fork">♜</span>
+          </div>
+          <p>
+            AUTHENTIC<br>
+            PAKISTANI CUISINE
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-circle">
+            <span class="leaf">◆</span>
+          </div>
+          <p>
+            FRESH<br>
+            INGREDIENTS
+          </p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-circle">
+            <span>♨</span>
+          </div>
+          <p>
+            GREAT<br>
+            HOSPITALITY
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Menu button -->
+      <a
+        class="button menu-button"
+        href="gul-khan-menu.pdf"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="button-icon menu-symbol">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="button-text">
+          VIEW MENU
+        </div>
+
+        <div class="arrow">
+          ›
+        </div>
+      </a>
+
+      <!-- Review button -->
+      <a
+        class="button review-button"
+        href="https://search.google.com/local/writereview?placeid=ChIJ50tGqHhDXz4Ra_zsnsXWwEw"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="button-icon google-circle">
+          <span class="g-blue">G</span>
+        </div>
+
+        <div class="button-text">
+          LEAVE A REVIEW
+        </div>
+
+        <div class="arrow">
+          ›
+        </div>
+      </a>
+
+      <!-- Bottom message -->
+      <div class="bottom-message">
+        Good Food<br>
+        Brings People Together
+      </div>
+
+      <!-- Divider -->
+      <div class="divider bottom-divider">
+        <span></span>
+        <div>✿</div>
+        <span></span>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        GUL KHAN RESTAURANT<br>
+        OUD METHA · DUBAI
+      </div>
+
+    </section>
+
+  </main>
+
 </body>
 </html>
